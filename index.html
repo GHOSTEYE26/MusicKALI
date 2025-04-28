@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Folder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Music -->
+  <audio id="bg_music" src="assets/songmp3.mp3" loop autoplay></audio>
+
+
+  <div id="volumeControls">
+    <button onclick="setVolume(0)">Mute</button>
+    <button onclick="setVolume(0.25)">25%</button>
+    <button onclick="setVolume(0.5)">50%</button>
+    <button onclick="setVolume(0.75)">75%</button>
+    <button onclick="setVolume(1)">Full Volume</button>
+  </div>
+  
+  <input type="range" id="volumeControl"
+    min="0" max="1" step="0.25" value="1" />
+  
+  <script>
+  function setVolume(value) {
+    const volumeSlider = document.getElementById('volumeControl');
+    volumeSlider.value = value;
+    // You can also control actual audio element if you have one
+    // audioElement.volume = value;
+  }
+  </script>
+  
+
+  <div id="leaf-container"></div>
+
+  <!-- Page Heading -->
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Page Heading Design</title>
+      <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+      <header>
+          <h1 class="heading">WELCOME IN ANIME GANG</h1>
+      </header>
+  </body>
+  </html>
+  
+  <button class="dark-mode-toggle" onclick="toggleDarkMode()">🌙</button>
+<button class="search-button" onclick="toggleSearchBox()">🔍</button>
+
+<!-- Search input box (initially hidden) -->
+<div class="search-box-container">
+  <input type="text" class="search-input" placeholder="Search..." />
+</div>
+
+
+   <!-- Folders Section -->
+   <div class="folder-container">
+    <a href="https://hianimez.to/watch/bleach-thousand-year-blood-war-the-conflict-19322" target="_blank">
+      <div class="folder">
+        <img src="assets/paper 1.webp" alt="Paper 1">
+        <p>BLEACH</p>
+      </div>
+    </a>
+  
+    <a href="https://hianimez.to/watch/demon-slayer-kimetsu-no-yaiba-47" target="_blank">
+      <div class="folder">
+        <img src="assets/paper 2.webp" alt="Paper 2">
+        <p>DEMON SLAYER</p>
+      </div>
+    </a>
+  
+    <a href="https://hianimez.to/watch/one-piece-100" target="_blank">
+      <div class="folder">
+        <img src="assets/paper 3.webp" alt="Paper 3">
+        <p>ONE PIECE</p>
+      </div>
+    </a>
+  
+    <a href="https://hianimez.to/watch/boruto-naruto-next-generations-8143" target="_blank">
+      <div class="folder">
+        <img src="assets/paper 4.webp" alt="Paper 4">
+        <p>NARUTO</p>
+      </div>
+    </a>
+  
+    <a href="https://hianimez.to/watch/dragon-ball-509" target="_blank">
+      <div class="folder">
+        <img src="assets/paper 5.webp" alt="Paper 5">
+        <p>DRAGON BALL</p>
+      </div>
+    </a>
+  
+    <a href="https://hianimez.to/watch/solo-leveling-season-2-arise-from-the-shadow-19413" target="_blank">
+      <div class="folder">
+        <img src="assets/paper 6.webp" alt="Paper 6">
+        <p>SOLO LEVELING</p>
+      </div>
+    </a>
+  
+    <a href="https://hianimez.to/watch/attack-on-titan-chronicle-2600" target="_blank">
+      <div class="folder">
+        <img src="assets/paper 7.webp" alt="Paper 7">
+        <p>ATTACK ON TITAN</p>
+      </div>
+    </a>
+  
+    <a href="https://hianimez.to/watch/mushoku-tensei-isekai-ittara-honki-dasu-special-17953" target="_blank">
+      <div class="folder">
+        <img src="assets/paper 8.webp" alt="Paper 8">
+        <p>MUSHOKU TENSAI</p>
+      </div>
+    </a>
+  
+    <a href="https://hianimez.to/watch/one-punch-man-63" target="_blank">
+      <div class="folder">
+        <img src="assets/paper 9.webp" alt="Paper 9">
+        <p>ONE PUNCH MAN</p>
+      </div>
+    </a>
+  
+    <a href="https://youtu.be/1AQtGDYVs7k" target="_blank">
+      <div class="folder">
+        <img src="assets/paper 10.webp" alt="Paper 10">
+        <p>SPYxFAMILY</p>
+      </div>
+    </a>
+  </div>
+
+
+  <script src="script.js"></script>
+
+  <script>
+    // Ensure background music plays after user interaction if needed
+    document.addEventListener('DOMContentLoaded', function () {
+      const bgMusic = document.getElementById('bg_music');
+      document.body.addEventListener('click', function() {
+        bgMusic.play();
+      }, { once: true });
+    });
+  </script>
+
+
