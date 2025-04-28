@@ -11,7 +11,7 @@ Welcome to the **Anime Gang Hub** – your ultimate portal to dive into the vibr
 - **Responsive Layout**: Looks great on both desktop and mobile devices.
 
 ## 📸 Sneak Peek
-![Anime Gang Hub Screenshot](https://via.placeholder.com/800x400.png?text=Anime+Gang+Hub+Screenshot)
+![Anime Gang Hub Screenshot](https://wallpapercave.com/wp/wp5342497.jpg)
 
 ## 🚀 Getting Started
 1. **Clone the Repo**:
