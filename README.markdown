@@ -1,4 +1,4 @@
-# 🎌 Anime Gang Hub
+# 🎌 Anime Music Hub
 
 Welcome to the **Anime Gang Hub** – your ultimate portal to dive into the vibrant world of anime! 🚀 This project is a sleek, interactive web page that links you to some of the most iconic anime series out there. With a fiery orange backdrop, falling leaves, and a banging background track, this hub is designed to get you hyped for your next anime adventure! 🍂🎶
 
@@ -40,9 +40,6 @@ Check out the live demo [here](#) (replace with your actual link if hosted)!
 
 ## 🤝 Contributing
 Love anime as much as we do? Feel free to fork this repo, add more anime, or enhance the features! Submit a pull request, and let’s build the ultimate anime hub together.
-
-## 📜 License
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
 ## 💬 Let’s Connect
 Got suggestions or just wanna geek out about anime? Drop me a message on [GitHub](https://github.com/yourusername) or [Twitter](https://twitter.com/yourusername)!
