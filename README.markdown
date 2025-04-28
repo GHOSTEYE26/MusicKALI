@@ -36,7 +36,7 @@ Welcome to the **Anime Gang Hub** – your ultimate portal to dive into the vibr
 - **Anime Links**: Click on any anime cover to visit its streaming page.
 
 ## 🌍 Live Demo
-Check out the live demo [here](#) (replace with your actual link if hosted)!
+Check out the live demo [http://127.0.0.1:5500/index.html](#) (replace with your actual link if hosted)!
 
 ## 🤝 Contributing
 Love anime as much as we do? Feel free to fork this repo, add more anime, or enhance the features! Submit a pull request, and let’s build the ultimate anime hub together.
